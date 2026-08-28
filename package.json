@@ -24,7 +24,7 @@
     "node": ">=18"
   },
   "devDependencies": {
-    "eslint": "^9.0.0",
+    "eslint": "^10.9.1",
     "jsdoc": "^4.0.2"
   }
 }
