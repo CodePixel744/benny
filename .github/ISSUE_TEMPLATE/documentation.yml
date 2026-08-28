@@ -1,0 +1,19 @@
+---
+name: Documentation
+about: Improve or fix documentation
+title: "[Docs]: "
+labels: documentation
+assignees: ''
+---
+
+## What needs improving
+
+Point to the file / section that is unclear or incorrect.
+
+## Suggested change
+
+Describe what should be added, fixed, or clarified.
+
+## Relevant links
+
+Any related issues, PRs, or external resources.

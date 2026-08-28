@@ -1,0 +1,30 @@
+{
+  "name": "benny-ben10-guessing-game",
+  "version": "0.1.0",
+  "description": "A simple Ben 10 character guessing game, built as a playground for learning open-source contribution workflows.",
+  "main": "src/index.js",
+  "bin": {
+    "benny": "./bin/benny.js"
+  },
+  "scripts": {
+    "start": "node bin/benny.js",
+    "test": "node --test",
+    "lint": "eslint src test bin",
+    "docs": "jsdoc -c jsdoc.json"
+  },
+  "keywords": [
+    "ben-10",
+    "game",
+    "guessing-game",
+    "cli",
+    "open-source"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "jsdoc": "^4.0.2"
+  }
+}
