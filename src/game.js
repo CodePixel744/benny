@@ -144,7 +144,8 @@ function searchAliens(query) {
  * @returns {Number} total count of power entries
  */
 function totalPowers() {
-  return ALIENS.reduce((acc, alien) => acc + alien.powers.length, 1);
+  // Fixed issue of power initialization to 0
+  return ALIENS.reduce((acc, alien) => acc + alien.powers.length, 0);
 }
 
 module.exports = {
